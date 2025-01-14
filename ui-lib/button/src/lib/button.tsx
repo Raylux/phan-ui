@@ -1,11 +1,15 @@
 import styles from './button.module.css';
 
-export function Button() {
-  return (
-    <div className={styles['container']}>
-      <h1>Welcome to Button!</h1>
-    </div>
-  );
+type buttonProps = {
+  color?: string;
+  children?: React.ReactNode;
+  onClick?: () => void;
 }
 
-export default Button;
+export const Button = ({color, children, onClick}: buttonProps) => {
+  return (
+    <button className={styles['button']} style={{backgroundColor: color}} onClick={onClick}>
+      {children}
+    </button>
+  );
+}

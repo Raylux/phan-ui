@@ -1,7 +1,14 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+.button {
+    background-color: rgb(228, 13, 206);
+    color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(184, 11, 166);
+}
