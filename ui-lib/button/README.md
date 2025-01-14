@@ -1,7 +1,35 @@
-# button
+# Button
+Used to trigger an action or an event
 
-This library was generated with [Nx](https://nx.dev).
+## Setup
 
-## Running unit tests
+Run the following command to add the `button` component to your project
 
-Run `nx test button` to execute the unit tests via [Vitest](https://vitest.dev/).
+```sh
+npx phan add @phan-ui/button
+```
+<!-- This is NOT true -->
+
+## Usage
+```jsx
+import { Button } from '@phan-ui/button'
+```
+```jsx
+<Button>Click me!</Button>
+```
+
+## Properties
+### Color
+Set the background color of the Button with the `color` property
+
+```jsx
+<Button color="red">I'm red</Button>
+```
+
+### Events
+Use the property `onClick` to pass a function to be triggered when the Button is clicked
+```jsx
+<Button onClick={() => alert("Hello World!")}>Click me!</Button>
+```
+
+
