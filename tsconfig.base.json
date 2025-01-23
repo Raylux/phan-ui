@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@phan-ui/button": ["ui-lib/button/src/index.ts"]
+      "@phan-ui/button": ["ui-lib/button/src/index.ts"],
+      "@phan-ui/header": ["ui-lib/header/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
