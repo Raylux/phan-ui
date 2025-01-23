@@ -1,13 +1,9 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
+import { Header } from '@phan-ui/header';
 
 export function App() {
   return (
-    <div>
-      <NxWelcome title="docs-app" />
-    </div>
+    <Header size='sm' color='white'>Questa è una heading</Header>
   );
 }
 
