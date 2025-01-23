@@ -3,7 +3,7 @@ import { Header } from '@phan-ui/header';
 
 export function App() {
   return (
-    <Header size='sm' color='white'>Questa è una heading</Header>
+    <Header size='sm'>Questa è una heading</Header>
   );
 }
 

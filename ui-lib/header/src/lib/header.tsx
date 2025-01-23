@@ -9,6 +9,8 @@ type HeaderProps = {
 
 export const Header = ({ size, color = 'black', children }: HeaderProps) => {
 
+
+  //Function that converts size prop to the corresponding HTML header tag
   const checkSize = () => {
     switch (size) {
       case "xs":
