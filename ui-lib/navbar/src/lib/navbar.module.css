@@ -1,7 +1,8 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+.navbar {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  gap: 16px;
+  padding: 16px;
+}
