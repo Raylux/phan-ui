@@ -1,7 +1,19 @@
-# navbar
+# Navbar
+Used to trigger an action or an event
 
-This library was generated with [Nx](https://nx.dev).
+## Setup
 
-## Running unit tests
+Run the following command to add the `navbar` component to your project
 
-Run `nx test navbar` to execute the unit tests via [Vitest](https://vitest.dev/).
+```sh
+npm install @phan-ui/navbar
+```
+
+## Usage
+```jsx
+import { Navbar } from '@phan-ui/navbar'
+
+<Navbar>I'm a navbar</Navbar>
+```
+
+
