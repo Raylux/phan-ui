@@ -34,7 +34,7 @@ export const Footer = (
           <img src={instagramLogo} alt="instagram logo" width={40} height={40}/>
         </a>
       </div>
-      <p>Email: {copyrightName}</p>
+      <p>Email: {email}</p>
       <p>© 2025 Copyright: {copyrightName}</p>
     </div>
 
