@@ -1,0 +1,13 @@
+.footer {
+    background-color: #22223b;
+    color: rgb(235, 235, 235);
+    padding: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
