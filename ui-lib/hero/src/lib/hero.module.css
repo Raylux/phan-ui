@@ -1,0 +1,19 @@
+.hero {
+    height: 75vh;
+    background-color: rgb(34, 34, 59);
+    padding: 75px 25px 0 25px;
+}
+
+.hero-title {
+    color: rgb(235, 235, 235);
+    font-size: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.hero-subtitle {
+    color: rgb(180, 180, 201);
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}

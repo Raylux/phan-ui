@@ -19,6 +19,7 @@
       "@phan-ui/footer": ["ui-lib/footer/src/index.ts"],
       "@phan-ui/grid": ["ui-lib/grid/src/index.ts"],
       "@phan-ui/header": ["ui-lib/header/src/index.ts"],
+      "@phan-ui/hero": ["ui-lib/hero/src/index.ts"],
       "@phan-ui/navbar": ["ui-lib/navbar/src/index.ts"]
     }
   },
