@@ -5,3 +5,7 @@
  * .container {
  * }
 */
+
+.grid {
+    display: grid;
+}
