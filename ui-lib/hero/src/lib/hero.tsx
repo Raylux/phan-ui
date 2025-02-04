@@ -1,9 +1,24 @@
 import styles from './hero.module.css';
 
-export function Hero() {
+type HeroProps = {
+  title?: string;
+  subtitle?: string;
+  textAlign?: "start" | "center" | "end";
+  backgroundImg?: string;
+}
+
+export const Hero = ({ title, subtitle, textAlign = "start", backgroundImg }: HeroProps) => {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Hero!</h1>
+    <div className={styles['hero']}
+      style={
+        {
+          textAlign: textAlign,
+        }
+      }>
+      <div className={styles['hero-textbox']}>
+        <h1 className={styles['hero-title']}>{title}</h1>
+        <p className={styles['hero-subtitle']}>{subtitle}</p>
+      </div>
     </div>
   );
 }

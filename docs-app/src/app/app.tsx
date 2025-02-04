@@ -1,9 +1,13 @@
 
 import { Footer } from '@phan-ui/footer';
+import { Hero } from '@phan-ui/hero';
 
 export function App() {
   return (
-    <Footer/>
+    <>
+      <Hero title='Prova' subtitle='Daje' textAlign='center'/>
+      {/* <Footer /> */}
+    </>
   );
 }
 
