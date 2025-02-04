@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@phan-ui/button": ["ui-lib/button/src/index.ts"],
+      "@phan-ui/footer": ["ui-lib/footer/src/index.ts"],
       "@phan-ui/grid": ["ui-lib/grid/src/index.ts"],
       "@phan-ui/header": ["ui-lib/header/src/index.ts"],
       "@phan-ui/navbar": ["ui-lib/navbar/src/index.ts"]
